@@ -1,0 +1,10 @@
+name: RedstoneVC
+description: $description
+version: '${version}'
+
+main: pl.redstonefun.redstonevc.RedstoneVC
+api-version: '26.3'
+load: POSTWORLD
+
+authors: [ Brzechuu ]
+website: https://github.com/Brzechuu/RedstoneVC
