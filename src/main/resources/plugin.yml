@@ -3,7 +3,7 @@ description: $description
 version: '${version}'
 
 main: pl.redstonefun.redstonevc.RedstoneVC
-api-version: '26.3'
+api-version: '26.2'
 load: POSTWORLD
 
 authors: [ Brzechuu ]

@@ -7,10 +7,12 @@ plugins {
 repositories {
     mavenCentral()
     maven("https://repo.papermc.io/repository/maven-public/")
+    maven("https://maven.enginehub.org/repo/")
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:26.3.build.+")
+    compileOnly("io.papermc.paper:paper-api:26.2.build.+")
+    compileOnly("com.sk89q.worldedit:worldedit-bukkit:7.4.5")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 }
 
@@ -27,7 +29,7 @@ tasks {
         // Configure the Minecraft version for our task.
         // This is the only required configuration besides applying the plugin.
         // Your plugin's jar (or shadowJar if present) will be used automatically.
-        minecraftVersion("26.3")
+        minecraftVersion("26.2")
         jvmArgs("-Xms2G", "-Xmx2G")
     }
 
